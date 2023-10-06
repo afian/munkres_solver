@@ -9,7 +9,7 @@ Taken from:
 - Google Cloud Fleet Routing: optimizeTours API (coming soon)
 - Google ODRD: Navigation SDK (coming soon)
 
-The assignment problem as applied to taxi dispatch involves matching a given number of available taxis (agents) with an equal number of customers (tasks) wishing to be picked up as soon as possible. This project shows you how to use the [munkres-js](https://github.com/addaleax/munkres-js) library to solve it based on a cost matrix supplied by the Google Maps Routes Preferred ComputeRouteMatrix API.
+In the context of taxi dispatch, the assignment problem aims to pair available taxis (referred to as agents) with an equal number of customers (referred to as tasks) who want to be picked up promptly. This project guides you through the process of solving this problem using the [munkres-js](https://github.com/addaleax/munkres-js) library. The solution relies on a cost matrix provided by the [Google Maps Routes Preferred ComputeRouteMatrix API](https://developers.google.com/maps/documentation/routes_preferred/reference/rest/v1/TopLevel/computeRouteMatrix).
 
 ```js
 const pairings = [

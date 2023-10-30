@@ -6,7 +6,7 @@ Taken from:
 - [Google Mobility: An introduction to Google ODRD, LMFS and Cloud Fleet Routing APIs (part 1 of 5)](https://www.afi.io/blog/google-mobility-an-introduction-to-google-odrd-lmfs-and-cloud-fleet-routing-apis/)
 - [Google ODRD: Routes Preferred ComputeRoutes API (part 2 of 5)](https://afi.io/blog/google-odrd-routes-preferred-computeroutes-api/)
 - [Google LMFS: Routes Preferred ComputeRouteMatrix API (part 3 of 5)](https://www.afi.io/blog/google-lmfs-routes-preferred-computeroutematrix-api/)
-- Google Cloud Fleet Routing: optimizeTours API (coming soon)
+- [Google Cloud Fleet Routing: OptimizeTours API (part 4 of 5)](https://afi.io/blog/google-cloud-fleet-routing-optimizetours-api/)
 - Google ODRD: Navigation SDK (coming soon)
 
 In the context of taxi dispatch, the assignment problem aims to pair available taxis (referred to as agents) with an equal number of customers (referred to as tasks) who want to be picked up promptly. This project guides you through the process of solving this problem using the [munkres-js](https://github.com/addaleax/munkres-js) library. The solution relies on a cost matrix provided by the [Google Maps Routes Preferred ComputeRouteMatrix API](https://developers.google.com/maps/documentation/routes_preferred/reference/rest/v1/TopLevel/computeRouteMatrix).
